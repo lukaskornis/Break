@@ -398,7 +398,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_PlatformSettingsDirtyTick
-    value: 638471613801978390
+    value: 638472474852119940
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_TextureAssetName
@@ -558,7 +558,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_AnimatedSpriteImportData.Array.data[0].m_SpriteID
-    value: 63092e0ca15be4a6590a90fcd3f96aa8
+    value: 48ac51fd87e904c01a7e4b07939f6ad6
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_AnimatedSpriteImportData.Array.data[0].spriteBone.Array.size
@@ -658,7 +658,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_AsepriteLayers.Array.data[0].m_Cells.Array.data[0].m_SpriteId
-    value: 63092e0ca15be4a6590a90fcd3f96aa8
+    value: 48ac51fd87e904c01a7e4b07939f6ad6
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_AsepriteLayers.Array.data[0].m_LinkedCells.Array.size

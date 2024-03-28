@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 32bb4be0a9d9344789a6ac816faf0127
+guid: fe6e291cbf04b4512945c0d83fd0b558
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,7 +97,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638471613801978390
+  platformSettingsDirtyTick: 638472474852119940
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -121,7 +121,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Grumpy
+  - name: Player
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -132,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 32
       height: 16
-    spriteID: a7b36177062e74af997d1d97808c6071
+    spriteID: 93062e6f58d7b494eba417f38ffe253e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,20 +144,20 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -884706722
-    name: Grumpy
+    guid: 1687901567
+    name: Player
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Grumpy
+    - name: Player
       frameIndex: 0
       cellRect:
         x: 0
         y: 0
         width: 32
         height: 16
-      spriteId: a7b36177062e74af997d1d97808c6071
+      spriteId: 93062e6f58d7b494eba417f38ffe253e
     linkedCells: []
     parentIndex: -1
   platformSettings:
