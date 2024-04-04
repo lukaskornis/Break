@@ -11,6 +11,7 @@ public class Brick : MonoBehaviour
         if (hp <= 0)
         {
             Destroy(gameObject);
+            GameManager.score += 100;
         }
     }
 }
