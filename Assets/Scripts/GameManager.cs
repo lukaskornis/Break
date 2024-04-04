@@ -28,6 +28,5 @@ public class GameManager : MonoBehaviour
             winScreen.SetActive(true);
             enabled = false;
         }
-
     }
 }
