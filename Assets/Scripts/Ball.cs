@@ -3,6 +3,7 @@ using UnityEngine;
 public class Ball : MonoBehaviour
 {
 	public float speed = 5;
+	public Transform spawnPoint;
 	Rigidbody2D rb;
 
 	void Start()
@@ -23,5 +24,11 @@ public class Ball : MonoBehaviour
 		{
 			brick.Damage();
 		}
+	}
+
+	void OnTriggerEnter2D(Collider2D other)
+	{
+		transform.position = spawnPoint.position;
+		GameManager.lives--;
 	}
 }

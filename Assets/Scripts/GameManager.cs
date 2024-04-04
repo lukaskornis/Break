@@ -1,18 +1,27 @@
-using System.Collections;
-using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public static int score;
+    public static int lives = 3;
 
-    // Update is called once per frame
+    public TMP_Text scoreText;
+    public TMP_Text livesText;
+
+    public GameObject winScreen;
+    public GameObject loseScreen;
+
     void Update()
     {
+        scoreText.text = "Score : " + score;
+        livesText.text = "Lives : " + lives;
+
+        if (lives <= 0)
+        {
+            loseScreen.SetActive(true);
+        }
+
         
     }
 }
