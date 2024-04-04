@@ -20,8 +20,14 @@ public class GameManager : MonoBehaviour
         if (lives <= 0)
         {
             loseScreen.SetActive(true);
+            enabled = false;
         }
 
-        
+        if (FindObjectsOfType<Brick>().Length < 1)
+        {
+            winScreen.SetActive(true);
+            enabled = false;
+        }
+
     }
 }
