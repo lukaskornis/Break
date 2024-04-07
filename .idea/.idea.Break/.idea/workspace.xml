@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2cf76db-880f-4a7c-8bf0-c580776957e1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Audio.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Win.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Win.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/untitled.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/untitled.wav.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Break/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Break/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ball.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ball.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Brick.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Brick.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +22,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawner.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
