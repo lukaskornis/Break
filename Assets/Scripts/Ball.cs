@@ -1,3 +1,4 @@
+using DG.Tweening;
 using UnityEngine;
 
 public class Ball : MonoBehaviour
@@ -5,6 +6,9 @@ public class Ball : MonoBehaviour
 	public float speed = 5;
 	public Transform spawnPoint;
 	Rigidbody2D rb;
+
+	public Color normalColor;
+	public Color glowColor;
 
 	void Start()
 	{
@@ -24,6 +28,11 @@ public class Ball : MonoBehaviour
 		{
 			brick.Damage();
 		}
+
+		var sr = GetComponent<SpriteRenderer>();
+		sr.DOColor(glowColor, 0.15f)
+			.SetLoops(2,LoopType.Yoyo)
+			.ChangeStartValue(normalColor);
 	}
 
 	void OnTriggerEnter2D(Collider2D other)
